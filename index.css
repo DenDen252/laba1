@@ -47,8 +47,21 @@ margin-left: 10%;
 .bold-text{
      font-weight: 1000;
 }
+@media (max-width: 1000px) {
+    .header{
+        width: 70%;
+    }
+    .right{
+       
+        margin-left: 70%;
+    }
+    .work{
+        width: 70%;
+    }
+}
 
-@media (max-width: 500px) {
+
+@media (max-width: 700px) {
     .header{
 
         float: none;
@@ -72,5 +85,8 @@ margin-left: 10%;
       }
      body{
          margin-left: 5%;
+     }
+     .infa{
+         margin-left: 0%;
      }
 }
