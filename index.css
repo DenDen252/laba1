@@ -3,6 +3,11 @@ body{
     margin: 2%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .header{
     display: flex;
   flex-direction: column;
@@ -58,6 +63,11 @@ margin-left: 10%;
     .work{
         width: 70%;
     }
+}
+
+.box:hover {
+    background-color: #ddd;
+    cursor: pointer;
 }
 
 
